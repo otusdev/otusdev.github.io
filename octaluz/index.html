@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Octaluz — jogo de blocos 8×8 | OTUS</title>
+  <meta name="description" content="Encaixe as peças no tabuleiro 8×8, limpe linhas e colunas e acenda a Luz do Dia: um desafio por dia, o mesmo para todo mundo.">
+  <meta name="theme-color" content="#12151C">
+  <link rel="canonical" href="https://otusdev.github.io/octaluz/">
+  <link rel="alternate" hreflang="pt-BR" href="https://otusdev.github.io/octaluz/">
+  <link rel="alternate" hreflang="en" href="https://otusdev.github.io/octaluz/en/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%234FC3F7'%3E%3Crect x='0' y='0' width='9' height='9' rx='2'/%3E%3Crect x='11.5' y='0' width='9' height='9' rx='2'/%3E%3Crect x='23' y='0' width='9' height='9' rx='2'/%3E%3Crect x='0' y='11.5' width='9' height='9' rx='2'/%3E%3Crect x='23' y='11.5' width='9' height='9' rx='2'/%3E%3Crect x='0' y='23' width='9' height='9' rx='2'/%3E%3Crect x='11.5' y='23' width='9' height='9' rx='2'/%3E%3Crect x='23' y='23' width='9' height='9' rx='2'/%3E%3C/g%3E%3Crect x='11.5' y='11.5' width='9' height='9' rx='2' fill='%23FFD54F'/%3E%3C/svg%3E">
+
+  <!-- Prévia do link nas conversas e redes. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="OTUS">
+  <meta property="og:title" content="Octaluz — jogo de blocos 8×8">
+  <meta property="og:description" content="Encaixe as peças, limpe linhas e colunas e acenda a Luz do Dia: um desafio por dia, o mesmo para todo mundo.">
+  <meta property="og:url" content="https://otusdev.github.io/octaluz/">
+  <meta property="og:image" content="https://otusdev.github.io/octaluz/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Marca do Octaluz: blocos azuis com um bloco dourado aceso no centro.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <nav class="top"><a href="../">← OTUS</a><a id="language" href="en/" hreflang="en" lang="en">English</a></nav>
+
+  <main>
+    <section class="result" id="result" aria-live="polite" hidden>
+      <p class="kind" id="result-kind"></p>
+      <p class="points" id="result-points"></p>
+      <p class="unit" id="result-unit"></p>
+      <p class="note" id="result-note"></p>
+    </section>
+
+    <header class="hero">
+      <div class="logo" aria-hidden="true">
+        <span></span><span></span><span></span>
+        <span></span><span class="lit"></span><span></span>
+        <span></span><span></span><span></span>
+      </div>
+      <h1>Octa<span class="luz">luz</span></h1>
+      <p class="tagline">Jogo de blocos 8×8</p>
+      <p class="cta">
+        <a class="play" id="play" href="https://play.google.com/store/apps/details?id=com.otus.octaluz" hidden>Baixar na Google Play</a>
+        <span class="soon" id="soon">Em breve na Google Play</span>
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>Como jogar</h2>
+      <ul>
+        <li>Arraste as peças da bandeja para o tabuleiro.</li>
+        <li>Complete uma linha ou uma coluna inteira para limpá-la. Várias de uma vez valem mais.</li>
+        <li>Continue limpando nas jogadas seguintes para subir o combo e multiplicar os pontos.</li>
+        <li>Uma peça não cabe agora? Guarde-a no quadrado de guardar e use depois.</li>
+        <li>Aperto no tabuleiro? Use os boosters: martelo, bomba, girar e desfazer.</li>
+        <li>Limpe o tabuleiro inteiro para ganhar um bônus.</li>
+        <li>A partida acaba quando nenhuma peça cabe mais no tabuleiro.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Luz do Dia</h2>
+      <p>Todo dia tem um desafio novo, o mesmo para todo mundo. Bata a meta para acender a luz e ganhe um “continuar” grátis. Dias seguidos formam a sequência, que dá boosters e protetores para os dias em que você não puder jogar. Os troféus do calendário liberam temas novos para o tabuleiro. Depois, compartilhe o resultado e desafie os amigos.</p>
+    </section>
+
+    <ul class="facts">
+      <li>Sem cadastro</li>
+      <li>Funciona sem internet</li>
+      <li>Gratuito, com anúncios</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p><a href="privacidade.html">Política de privacidade</a></p>
+    <p>Contato: <a href="mailto:otus.dev@gmail.com">otus.dev@gmail.com</a></p>
+    <p>© 2026 OTUS</p>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
