@@ -5,7 +5,7 @@
 
   // Quando o app estiver publicado na Google Play, troque para true: o
   // selo "Em breve" vira o botão da loja, nas duas páginas.
-  var PLAY_LIVE = false;
+  var PLAY_LIVE = true;
 
   if (PLAY_LIVE) {
     document.getElementById('play').hidden = false;
